@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-section {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.main-image {
+    width: 500px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+.quote h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.quote p {
+    font-style: italic;
+}
+.biography {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.facts-and-standout {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.facts, .standout {
+    width: 48%;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.memorable-moments {
+    margin-top: 40px;
+}
+
+.images-section img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-header {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-section p {
+    margin: 0;
+}
